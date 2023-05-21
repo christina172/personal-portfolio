@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Martel', serif;
+}
+
+.background {
+    background-color: rgb(136, 211, 255);
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    transform: skewY(-8deg);
+    transform-origin: top left;
+    box-shadow: 3px 3px 3px grey;
+}
+
+.about-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture {
+    box-shadow: 3px 3px 3px grey;
+}
+
+picture {
+    position: relative;
+    margin: 40px 0 40px 40px;
+}
+
+h1 {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.about-text {
+    box-shadow: 2px 2px 6px grey;
+    padding: 30px 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 40px 40px 40px 0;
+}
+
+h2 {
+    font-size: 2.2rem;
+}
+
+.about p {
+    font-size: 1.1rem;
+    line-height: 1.2;
+}
+
+.about-links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    display: block;
+    height: 30px;
+    width: fit-content;
+}
+
+.github {
+    width: auto;
+    height: 30px;
+}
+
+@media (max-width: 1155px) {
+    .about-content {
+        display: block;
+    }
+
+    .profile-picture {
+        float: left;
+        margin: 40px 15px 0 40px;
+    }
+
+    .about-text {
+        display: block;
+        margin: 120px 40px 40px 120px;
+    }
+
+    h1 {
+        top: 60px;
+        left: -42px;
+        bottom: 0;
+    }
+
+    .about p {
+        line-height: 1.5;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .about p {
+        line-height: 1.2;
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 615px) {
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    picture {
+        margin: 0px;
+        padding: 20px 20px 0 20px;
+    }
+
+    .profile-picture {
+        float: none;
+        position: relative;
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        top: 280px;
+        left: 60px;
+        bottom: 0;
+        position: relative;
+        top: -45px;
+        left: 0;
+        bottom: 0;
+    }
+
+    .about-text {
+        display: flex;
+        margin: 0 20px 20px 20px;
+        padding: 20px;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+}
