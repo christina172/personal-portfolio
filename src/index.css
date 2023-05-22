@@ -6,6 +6,12 @@
     font-family: 'Martel', serif;
 }
 
+.app {
+    background-color: rgb(233, 247, 255);
+}
+
+/* About component styles */
+
 .background {
     background-color: rgb(136, 211, 255);
     position: absolute;
@@ -65,16 +71,76 @@ h2 {
 
 a {
     display: block;
-    height: 30px;
+    height: 25px;
     width: fit-content;
 }
 
-.github {
+.github,
+.link-icon {
     width: auto;
     height: 30px;
 }
 
+/* Projects component styles */
+
+.projects {
+    position: relative;
+    padding: 0 40px 40px 40px;
+}
+
+.projects h2 {
+    margin-bottom: 40px;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 6px grey;
+}
+
+.project-screenshot {
+    max-width: 100%;
+    border-bottom: rgb(185, 185, 185) solid 1px;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: white;
+    height: 100%;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.project-links {
+    display: flex;
+    gap: 15px;
+}
+
+.project-links .github,
+.link-icon {
+    width: auto;
+    height: 25px;
+}
+
+/* Media queries */
+
 @media (max-width: 1155px) {
+
+    /* About component styles */
     .about-content {
         display: block;
     }
@@ -102,13 +168,33 @@ a {
 }
 
 @media (max-width: 1000px) {
+
+    /* About component styles */
     .about p {
-        line-height: 1.2;
+        line-height: 1.3;
         font-size: 1.1rem;
+    }
+
+    /* Projects component styles */
+    .projects-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .project-description {
+        line-height: 1.3;
+    }
+
+}
+
+@media (max-width: 670px) {
+    .projects-container {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
 @media (max-width: 615px) {
+
+    /* About component styles */
     .about-content {
         display: flex;
         flex-direction: column;
@@ -148,5 +234,14 @@ a {
     h2 {
         text-align: center;
         font-size: 1.8rem;
+    }
+
+    /* Projects component styles */
+    .projects {
+        padding: 0 20px 40px 20px;
+    }
+
+    .projects h2 {
+        margin-bottom: 20px;
     }
 }

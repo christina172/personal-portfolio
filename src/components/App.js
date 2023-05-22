@@ -1,9 +1,11 @@
 import About from "./About";
+import Projects from "./Projects";
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <About />
+      <Projects />
     </div>
   );
 }
