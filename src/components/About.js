@@ -27,5 +27,3 @@ function About() {
 }
 
 export default About;
-
-// Изображение <a href="https://pixabay.com/ru/users/roverhate-1759589/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1353825">Ronny Overhate</a> с сайта <a href="https://pixabay.com/ru//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1353825">Pixabay</a>

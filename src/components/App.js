@@ -1,11 +1,15 @@
 import About from "./About";
 import Projects from "./Projects";
+import Footer from "./Footer";
 
 function App() {
   return (
     <div className="app">
-      <About />
-      <Projects />
+      <main>
+        <About />
+        <Projects />
+      </main>
+      <Footer />
     </div>
   );
 }
