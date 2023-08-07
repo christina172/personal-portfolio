@@ -6,11 +6,28 @@ import restaurantPage from "./images/reatsaurant-page.png";
 import weatherApp from "./images/weather-app.png";
 import memoryGame from "./images/memory-game.png";
 import battleshipGame from "./images/battleship-game.png";
+import calculator from "./images/calculator.png";
+import inventoryApplication from "./images/inventory-application.png";
+import membersOnly from "./images/members-only.png";
 
 import Card from "./Card";
 
 function Projects() {
     const [projects, setProjects] = useState([
+        {
+            name: "Members Only Message App",
+            description: "This is a project for practicing creating and authenticating users and giving them different permissions. The app is created with the help of Express Application Generator. It uses a MongoDB database and ejs view engine. The authentication is done using the express-session, passport.js (local strategy) and express-flash middleware. Users' passwords are hashed with bcryptjs. The app has responsive design. Hosted on render.",
+            screenshot: membersOnly,
+            linkToGitHub: "https://github.com/christina172/members-only",
+            livePreview: "https://members-only-75bu.onrender.com/members-only",
+        },
+        {
+            name: "Inventory Application",
+            description: "This is my first serious backend project. The app is created with the help of Express Application Generator. It uses a MongoDB database. The app includes forms to add, update and delete documents and uses PUG view engine to create views for pages displaying category and item lists, details, forms and the home page. The app has responsive design. This is my first project using Bootstrap. Hosted on render.",
+            screenshot: inventoryApplication,
+            linkToGitHub: "https://github.com/christina172/inventory-application",
+            livePreview: "https://inventory-application-kp94.onrender.com",
+        },
         {
             name: "Shopping Cart",
             description: "The website has two pages: Home and Shop. On the Shop page customers can choose how many items they want to buy and add them to cart. The quantity of the products in the cart and the total sum are displayed on a sticky bar. This Project uses React Router and includes React Tests.",
@@ -52,6 +69,13 @@ function Projects() {
             screenshot: restaurantPage,
             linkToGitHub: "https://github.com/christina172/restaurant-page",
             livePreview: "https://christina172.github.io/restaurant-page/",
+        },
+        {
+            name: "Calculator",
+            description: "This is a simple fully functioning calculator. It is the final project in the Odin Project Foundations Course (JavaScript Basics Section).",
+            screenshot: calculator,
+            linkToGitHub: "https://github.com/christina172/calculator",
+            livePreview: "https://christina172.github.io/calculator/",
         },
     ]);
     return (
