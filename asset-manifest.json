@@ -1,28 +1,31 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.e14c7d9c.css",
-    "main.js": "/personal-portfolio/static/js/main.b4ce8505.js",
+    "main.js": "/personal-portfolio/static/js/main.98f24d90.js",
     "static/media/hidden-object-game.png": "/personal-portfolio/static/media/hidden-object-game.add323b1b091c3c08686.png",
     "static/media/reatsaurant-page.png": "/personal-portfolio/static/media/reatsaurant-page.2b1882d12459beba4010.png",
     "static/media/shopping-cart.png": "/personal-portfolio/static/media/shopping-cart.68db7f293e0b7ad1bb29.png",
     "static/media/memory-game.png": "/personal-portfolio/static/media/memory-game.725fb7a6f42e655fbd50.png",
+    "static/media/inventory-application.png": "/personal-portfolio/static/media/inventory-application.319ad00a8da0e9d24705.png",
     "static/media/battleship-game.png": "/personal-portfolio/static/media/battleship-game.e58c1ccf1c7b216a5f33.png",
     "static/media/weather-app.png": "/personal-portfolio/static/media/weather-app.f1db3f8835be15f2d557.png",
+    "static/media/members-only.png": "/personal-portfolio/static/media/members-only.63565e7b8fc150d304c1.png",
     "static/media/woman-grey-306.png": "/personal-portfolio/static/media/woman-grey-306.e9bfd1185fb067df8f47.png",
     "static/media/woman-blue-2-400.png": "/personal-portfolio/static/media/woman-blue-2-400.754beed260abd2960775.png",
     "static/media/woman-grey-640.png": "/personal-portfolio/static/media/woman-grey-640.12256c4d0cc79b4f350c.png",
     "static/media/woman-blue-1-400.png": "/personal-portfolio/static/media/woman-blue-1-400.982354025578f35b28c9.png",
     "static/media/woman-blue-2-300.png": "/personal-portfolio/static/media/woman-blue-2-300.5a0bc4ae80da19d9c68e.png",
+    "static/media/calculator.png": "/personal-portfolio/static/media/calculator.101d44c5ec192251306e.png",
     "static/media/github-142-svgrepo-com.svg": "/personal-portfolio/static/media/github-142-svgrepo-com.5531be85d7a8d6f333e5c7136944a022.svg",
     "static/media/phone-svgrepo-com.svg": "/personal-portfolio/static/media/phone-svgrepo-com.8fd4bc88669bc8d4840c3ea4edc3450e.svg",
     "static/media/mail-svgrepo-com.svg": "/personal-portfolio/static/media/mail-svgrepo-com.8d08fdab56318145f15b3712a5329294.svg",
     "static/media/external-link-svgrepo-com.svg": "/personal-portfolio/static/media/external-link-svgrepo-com.ff8b3554abac030e43277669b20d5490.svg",
     "index.html": "/personal-portfolio/index.html",
     "main.e14c7d9c.css.map": "/personal-portfolio/static/css/main.e14c7d9c.css.map",
-    "main.b4ce8505.js.map": "/personal-portfolio/static/js/main.b4ce8505.js.map"
+    "main.98f24d90.js.map": "/personal-portfolio/static/js/main.98f24d90.js.map"
   },
   "entrypoints": [
     "static/css/main.e14c7d9c.css",
-    "static/js/main.b4ce8505.js"
+    "static/js/main.98f24d90.js"
   ]
 }
