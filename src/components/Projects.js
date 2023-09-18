@@ -9,21 +9,37 @@ import battleshipGame from "./images/battleship-game.png";
 import calculator from "./images/calculator.png";
 import inventoryApplication from "./images/inventory-application.png";
 import membersOnly from "./images/members-only.png";
+import blog from "./images/blog.png";
+import myBlog from "./images/my-blog.png";
 
 import Card from "./Card";
 
 function Projects() {
     const [projects, setProjects] = useState([
         {
+            name: "Blog API Front End-2",
+            description: "This site (the second front end for the blog API) consists of 4 pages: 1. a login page (uses bcryptjs), 2. the home page with a list of all the posts and some functionality to manipulate them, 3. a post page with the text of the post, a list of all the comments with the ability to delete them and a link to the edit post form, 4. a form page either to write a new post or to edit an excisting post. The authentication & authorization are handled with the help of a JWT, which is stored in the local storage (use 'author123' as the username and 'blog12345' as the password to log in). Please, wait for several minutes for the server to start working.",
+            screenshot: myBlog,
+            linkToGitHub: "https://github.com/christina172/blog-api-frontend-2",
+            livePreview: "https://christina172.github.io/blog-api-frontend-2/",
+        },
+        {
+            name: "Blog API Front End-1",
+            description: "The blog API project (Express.js & MongoDB) is focused on connecting the back end with the front end - setting up the API and accessing it from outside. This site (front end 1) consists of two pages. Its functionality includes viewing the list of all posts, reading a post with all comments to it and adding a comment. It uses fetch with GET and POST methods. The project is written in plain HTML and CSS and is compiled with webpack. Please, wait for several minutes for the server to start working - the API is hosted on render.",
+            screenshot: blog,
+            linkToGitHub: "https://github.com/christina172/blog-api-frontend-1",
+            livePreview: "https://christina172.github.io/blog-api-frontend-1/",
+        },
+        {
             name: "Members Only Message App",
-            description: "This is a project for practicing creating and authenticating users and giving them different permissions. The app is created with the help of Express Application Generator. It uses a MongoDB database and ejs view engine. The authentication is done using the express-session, passport.js (local strategy) and express-flash middleware. Users' passwords are hashed with bcryptjs. The app has responsive design. Hosted on render.",
+            description: "This is a project for practicing creating and authenticating users and giving them different permissions. The app is created with the help of Express Application Generator. It uses a MongoDB database and ejs view engine. The authentication is done using the express-session, passport.js (local strategy) and express-flash middleware. Users' passwords are hashed with bcryptjs. The app has responsive design. Please, wait for several minutes for the server to start working - the API is hosted on render.",
             screenshot: membersOnly,
             linkToGitHub: "https://github.com/christina172/members-only",
             livePreview: "https://members-only-75bu.onrender.com/members-only",
         },
         {
             name: "Inventory Application",
-            description: "This is my first serious backend project. The app is created with the help of Express Application Generator. It uses a MongoDB database. The app includes forms to add, update and delete documents and uses PUG view engine to create views for pages displaying category and item lists, details, forms and the home page. The app has responsive design. This is my first project using Bootstrap. Hosted on render.",
+            description: "This is my first serious backend project. The app is created with the help of Express Application Generator. It uses a MongoDB database. The app includes forms to add, update and delete documents and uses PUG view engine to create views for pages displaying category and item lists, details, forms and the home page. The app has responsive design. This is my first project using Bootstrap. Please, wait for several minutes for the server to start working - the API is hosted on render.",
             screenshot: inventoryApplication,
             linkToGitHub: "https://github.com/christina172/inventory-application",
             livePreview: "https://inventory-application-kp94.onrender.com",
